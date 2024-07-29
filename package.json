@@ -1,0 +1,33 @@
+{
+  "name": "easypost_tracking",
+  "version": "1.0.0",
+  "description": "use easypost to track shipments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "easypost",
+    "tracking",
+    "shipping"
+  ],
+  "author": "Deshawn Delice",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^2.2.15",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "events": "^3.3.0",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "net": "^1.0.2",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "querystring": "^0.2.1",
+    "require": "^2.4.20",
+    "url": "^0.11.4"
+  },
+  "devDependencies": {
+    "esbuild": "0.23.0"
+  }
+}
